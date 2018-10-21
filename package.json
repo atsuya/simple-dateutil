@@ -1,0 +1,28 @@
+{
+  "name": "simple-dateutil",
+  "version": "0.0.1",
+  "description": "A very simple datetime utility class for JavaScript",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test mocha -C test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atsuya/simple-dateutil.git"
+  },
+  "author": "Atsuya Takagi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atsuya/simple-dateutil/issues"
+  },
+  "homepage": "https://github.com/atsuya/simple-dateutil#readme",
+  "devDependencies": {
+    "eslint": "5.7.0",
+    "eslint-config-google": "0.11.0",
+    "jsdoc": "3.5.5",
+    "mocha": "5.2.0"
+  }
+}
